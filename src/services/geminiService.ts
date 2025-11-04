@@ -41,7 +41,7 @@ export const generateImage = async (prompt: string, images: UploadedImage[]): Pr
       for (const part of candidate.content.parts) {
         if (part.inlineData) {
           const base64ImageBytes: string = part.inlineData.data;
-          const mimeType = part.inlineData.mimeType || 'image/png';
+          const mimeType: string = part.inlineData?.mimeType ?? 'image/png';
           return `data:${mimeType};base64,${base64ImageBytes}`;
         }
       }
