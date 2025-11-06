@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { ClerkProvider } from "@clerk/clerk-react";
 // import AuthGate from './AuthGate';
-//import App from './App';
-import Router from './Router';
+import App from './App';
+// import Router from './Router';
 
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 
@@ -20,7 +20,7 @@ const root = ReactDOM.createRoot(rootElement);
 root.render(
   <React.StrictMode>
     <ClerkProvider publishableKey={PUBLISHABLE_KEY}>
-      <Router  />
+      <App />
     </ClerkProvider>
   </React.StrictMode>
 );

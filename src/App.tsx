@@ -100,7 +100,7 @@ const App: React.FC = () => {
     const { user } = useUser(); // Clerk hook to get current signed-in user
     const userEmail = user?.primaryEmailAddress?.emailAddress || "";
     const isPremiumUser = PREMIUM_USERS.includes(userEmail);
-    const maxTokens = isPremiumUser ? 20 : 2;
+    const maxTokens = isPremiumUser ? 20 : 5;
 
     const userId = user?.id || "guest";
     const usageKey = `usageCount_${userId}`;

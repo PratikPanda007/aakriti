@@ -287,5 +287,89 @@ export const THEMES: Theme[] = [
     name: "Movie Cast Lineup",
     prompt: "Combine 5–6 character portraits and create a cinematic lineup with movie title, dramatic lighting, and depth-of-field focus.",
     imgsNeeded: 6
+  },
+  {
+    id: 43,
+    category: "Trendy",
+    name: "Celestial Glow Portrait",
+    prompt: "Transform the subject into a cosmic being surrounded by stars, glowing constellations, and radiant energy around the face — perfect for profile pictures.",
+    imgsNeeded: 1
+  },
+  {
+    id: 44,
+    category: "Trendy",
+    name: "AI Vogue Cover",
+    prompt: "Place the person on a high-fashion magazine cover with luxury typography, soft lighting, and couture outfit design.",
+    imgsNeeded: 1
+  },
+  {
+    id: 45,
+    category: "Trendy",
+    name: "Desi Cyber Diva",
+    prompt: "Blend traditional Indian aesthetics (saree, jewelry) with futuristic cyberpunk elements like neon saree borders and glowing accessories.",
+    imgsNeeded: 1
+  },
+  {
+    id: 46,
+    category: "Trendy",
+    name: "AI Time Capsule",
+    prompt: "Create four frames of the same person in 1950s, 1980s, 2000s, and 2050s style fashion — vibrant, cinematic, and nostalgic.",
+    imgsNeeded: 1
+  },
+  {
+    id: 47,
+    category: "Trendy",
+    name: "Festival Glow-Up",
+    prompt: "Turn the uploaded image into a vibrant festival look — colors of Holi, sparkles of Diwali, or beachy vibes of Goa carnival.",
+    imgsNeeded: 1
+  },
+  {
+    id: 48,
+    category: "Trendy",
+    name: "Bollywood Dream Poster",
+    prompt: "Create a Bollywood-style movie poster starring the uploaded photo with dramatic title fonts, spotlight lighting, and cinematic tones.",
+    imgsNeeded: 1
+  },
+  {
+    id: 49,
+    category: "Trendy",
+    name: "AI Twin Swap",
+    prompt: "Use two images — swap their styles, outfits, or surroundings while keeping faces natural and realistic.",
+    imgsNeeded: 2
+  },
+  {
+    id: 50,
+    category: "Trendy",
+    name: "My Pet & Me Fusion",
+    prompt: "Use two images (a person and their pet) and generate a blended fantasy portrait showing emotional bond or shared aura.",
+    imgsNeeded: 2
+  },
+  {
+    id: 51,
+    category: "Trendy",
+    name: "Cinematic Rain Scene",
+    prompt: "Turn this portrait into a dramatic rain-soaked movie still — glowing reflections, raindrops, emotional expression.",
+    imgsNeeded: 1
+  },
+  {
+    id: 52,
+    category: "Trendy",
+    name: "AI Royal Mugshot",
+    prompt: "Create a funny royal portrait with exaggerated crown, robe, and serious royal expression — humorous and share-worthy.",
+    imgsNeeded: 1
+  },
+  {
+    id: 53,
+    category: "Trendy",
+    name: "Dream Wedding Poster",
+    prompt: "Use two images (bride & groom) and create a cinematic wedding announcement poster styled like a Netflix movie cover.",
+    imgsNeeded: 2
+  },
+  {
+    id: 54,
+    category: "Trendy",
+    name: "Metaverse ID Card",
+    prompt: "Generate a futuristic digital ID card showing your AI avatar with name, stats, and glowing cyber aesthetic.",
+    imgsNeeded: 1
   }
 ];
