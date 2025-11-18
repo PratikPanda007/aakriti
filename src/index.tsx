@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { ClerkProvider } from "@clerk/clerk-react";
 // import AuthGate from './AuthGate';
-import App from './App';
+// import App from './App';
 import Router from './Router';
 
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
